@@ -1,0 +1,38 @@
+{
+  "targetDefaults": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true
+    },
+    "lint": {
+      "dependsOn": [
+        "^lint"
+      ],
+      "cache": true
+    },
+    "preview": {
+      "dependsOn": [
+        "^preview"
+      ],
+      "cache": true
+    },
+    "prestart": {
+      "cache": true
+    },
+    "start": {
+      "cache": true
+    },
+    "predev": {
+      "cache": true
+    },
+    "dev": {
+      "cache": true
+    }
+  },
+  "affected": {
+    "defaultBase": "main"
+  },
+  "nxCloudAccessToken": "ODM5NTEyYmYtNGI3ZS00YjY3LWIxMTMtMThiZDM3YjRkNTkxfHJlYWQtd3JpdGU="
+}
